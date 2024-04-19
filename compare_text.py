@@ -14,6 +14,8 @@ def highlight_word_diff(file1, file2):
             highlighted_diff += '[' + word_diff + ']'  # Red color
         elif word_diff.startswith('+ '):  # Added word
             highlighted_diff += '[' + word_diff + ']'  # Green color
+
+        # To print all of the words and all highlighted differences, uncomment these two lines
         # else:
         #     highlighted_diff += word_diff + ' '
 
